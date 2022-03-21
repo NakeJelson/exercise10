@@ -1,6 +1,6 @@
 package com.company;
 
-
+// jake nelson 3-21-22 exercise10
 import java.util.ArrayList;
 import java.util.Iterator;
 
@@ -35,7 +35,7 @@ class Contact {
 
 class Book implements Iterable<Contact> {
     private ArrayList<Contact> listOfContacts = new ArrayList<Contact>();
-    
+
 
     public Book() {
         listOfContacts.add(new Contact("john.jeffrey@gmail.com", "614-234-2343"));
